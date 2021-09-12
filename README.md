@@ -24,6 +24,8 @@ The requirement of this application is -
 
 - User can click border country link after reaching a single country
 
+- User can switch theme `Dark Mode` or `Light Mode` by clicking moon icon on top right corner
+
 - To pull countries and its details we should leverage [Get information about countries via a RESTful API](https://restcountries.eu/)
 
 
