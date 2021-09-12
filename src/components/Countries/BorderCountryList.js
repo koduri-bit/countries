@@ -87,8 +87,8 @@ const ListStyle = styled.li`
     color: ${props => (props.ctx.isDarkMode ? 'white' : 'hsl(0, 100%, 5%)')}; 
     
     @media only screen and (max-width: 500px){
-         'justify-self': 'flex-start';
-          margin: 0.4em 0 0 0.3em;
+    
+          margin: 0.4em 0 0 0em;
           
           &:nth-child(1){
            margin-left: 0;

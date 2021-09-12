@@ -191,7 +191,7 @@ const Details = styled.div`
      
      @media only screen and (max-width: 500px){ 
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 2fr;
+        grid-template-rows: 13em 2fr;
         justify-content: center;
         align-items: center;
      }
@@ -212,7 +212,7 @@ const CountryImage = styled.img`
                     align-self: start ;
                     height:78%;
                     object-fit: contain;
-                    margin-left: 2em;
+                    margin:0.5em 0 0 1.3em;
                     width: 50%;
                 }
                 
@@ -229,8 +229,10 @@ const Ptag = styled.p`
          
      font-size:10px;
      color: ${props => (props.ctx.isDarkMode ? 'white' : 'hsl(0, 100%, 5%)')};
+    
       @media only screen and (max-width: 500px){ 
             font-size:1em;
+            margin: .4em 0 .4em 0;
         }
     
 `

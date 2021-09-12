@@ -26,7 +26,7 @@ const MainSec = styled.div`
      box-shadow:3px -1px 2px 0 ${props =>  props.ctx.isDarkMode ? colors.darkModeBorderColour : colors.lightModeBorderColour }; 
      
      @media only screen and (max-width: 500px){
-        
+        min-height: inherit;
      }
 `;
 

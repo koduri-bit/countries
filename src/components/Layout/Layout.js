@@ -60,7 +60,7 @@ const Page = styled.div`
   
   
   @media only screen and (max-width: 500px){
-  
+     min-height: 100vh;
   }
 `;
 const PageLayout = styled.div`
@@ -70,7 +70,7 @@ const PageLayout = styled.div`
      width: 100%;
      
      @media only screen and (max-width: 500px){
-  
+        min-height: 100vh;
      }
 
 `
