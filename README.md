@@ -4,95 +4,95 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge.
+
+Thank You for checking out my project. I have done this frontend coding challenge to improve my skills in - HTML CSS Javascript and React ecosystem.
+
+This challenge is taken from [Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca) a  website
+to find front-end todo coding projects. Anyone with frontend skills can pull, design, develop and submit code. You can check more about this website by clicking this link - [Frontend Mentor](https://www.frontendmentor.io/challenges/).
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-**To do this challenge, you need a good understanding of JavaScript.**
+The requirement of this application is -
 
-## The challenge
+- User can open and view application both Mobile (375px wide) and Desktop (1445px wide)
 
-Your challenge is to integrate with the [REST Countries API](https://restcountries.eu) to pull country data and display it like in the designs.
+- User can see all countries and few details for each country on its main page
 
-You can use any JavaScript framework/library on the front-end such as [React](https://reactjs.org) or [Vue](https://vuejs.org). You also have complete control over which packages you use to do things like make HTTP requests or style your project.
+- User can Filter countries based on region
 
-Your users should be able to:
+- User can search a country from search box
 
-- See all countries from the API on the homepage
-- Search for a country using an `input` field
-- Filter countries by region
-- Click on a country to see more detailed information on a separate page
-- Click through to the border countries on the detail page
-- Toggle the color scheme between light and dark mode *(optional)*
+- User can click border country link after reaching a single country
 
-Want some support on the challenge? [Join our Slack community](https://www.frontendmentor.io/slack) and ask questions in the **#help** channel.
+- To pull countries and its details we should leverage [Get information about countries via a RESTful API](https://restcountries.eu/)
 
-## Where to find everything
 
-Your task is to build out the project to the designs inside the `/design` folder. 
+## To access this responsive application -
 
-In this challenge, you will find mobile and desktop designs in light and dark mode color schemes for both pages.
+**Please click this link [Rest-Countries](https://koduri-bit.github.io/countries/)**
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+## Project Highlights - 
 
-If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
+**I did this challenge using HTML, CSS, Javascript and React hooks (ex: useState, useEffect, useContext, useReducer etc).** 
 
-There are no assets for this challenge, as the country flags will be pulled from the [REST Countries API](https://restcountries.eu) and you can use an icon font library for the icons.
+**Application wide state is managed using `React Context`. And local state for component is managed using useState concept**
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+**This project comes under `Advanced` project in [Frontend Mentor](https://www.frontendmentor.io/challenges)**
 
-## Building your project
+**I have leveraged CSS modules concept, so I can have separate class names for styling html.**
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+**I have used normal CSS with Flexbox and Grid concept for styling.**
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+**I have used `styled components` too.**
 
-## Deploying your project
+**I have used media queries for responsive design.**
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+**Desktop width targeted at 1440 and Mobile width targeted at 375.**
+
+**No class based js files written for any react components. For class based type I will be doing another project and update in here with the link**
+
+**This project details.**
+
+  | Project                           |  Managing Application State | Managing Application side effects  |
+  | :---                            |   :---:                       |   :---:                             |
+  | [Rest Countries](https://koduri-bit.github.io/countries/)                  | useState, useReducer, useContext, React Context |  useEffect           |
+  
+
+**See below projects where I would be using different state management concepts. Note the project still remains same `Job listings with filtering`, but the implementation changes as per below table**
+
+  | Project                           |  Managing Application State | Managing Application side effects  |
+  | :---                            |   :---:                       |   :---:                             |
+  | [Job Listing-01](https://koduri-bit.github.io/job-listings-01/)    |   useState                    |   useEffect                            |
+  | [Job Listing-02](https://koduri-bit.github.io/job-listings-02/)    | useState, useReducer          |   useEffect                            |
+  | [Job Listing-03](https://koduri-bit.github.io/job-listings-03/)                  | useState, useReducer, useContext, React Context |  useEffect           |
+  | [Job Listing-04](https://koduri-bit.github.io/job-listings-04/)   (This project)               | useState, Redux               |  useEffect                             |
+   
+
+## Project Deployed on - 
 
 - [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
 
-You can host your site using one of these solutions or any of our other trusted providers. [Read more about our recommended and trusted hosts](https://medium.com/frontend-mentor/frontend-mentor-trusted-hosting-providers-bf000dfebe).
 
-## Create a custom `README.md`
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
 
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
-
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit our template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-## Submitting your solution
-
-Submit your solution on the platform for the rest of the community to see. Follow our ["Complete guide to submitting solutions"](https://medium.com/frontend-mentor/a-complete-guide-to-submitting-solutions-on-frontend-mentor-ac6384162248) for tips on how to do this.
-
-Remember, if you're looking for feedback on your solution, be sure to ask questions when submitting it. The more specific and detailed you are with your questions, the higher the chance you'll get valuable feedback from the community.
-
-## Sharing your solution
-
-There are multiple places you can share your solution:
-
-1. Share your solution page in the **#finished-projects** channel of the [Slack community](https://www.frontendmentor.io/slack). 
-2. Tweet [@frontendmentor](https://twitter.com/frontendmentor) and mention **@frontendmentor**, including the repo and live URLs in the tweet. We'd love to take a look at what you've built and help share it around.
-3. Share your solution on other social channels like LinkedIn.
-4. Blog about your experience building your project. Writing about your workflow, technical choices, and talking through your code is a brilliant way to reinforce what you've learned. Great platforms to write on are [dev.to](https://dev.to/), [Hashnode](https://hashnode.com/), and [CodeNewbie](https://community.codenewbie.org/).
-
-We provide templates to help you share your solution once you've submitted it on the platform. Please do edit them and include specific questions when you're looking for feedback. 
-
-The more specific you are with your questions the more likely it is that another member of the community will give you feedback.
-
-## Got feedback for us?
-
-We love receiving feedback! We're always looking to improve our challenges and our platform. So if you have anything you'd like to mention, please email hi[at]frontendmentor[dot]io.
-
-This challenge is completely free. Please share it with anyone who will find it useful for practice.
-
-**Have fun building!** 🚀
+**Once again thank you for checking my work!** 🚀
