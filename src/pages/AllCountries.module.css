@@ -1,0 +1,10 @@
+.search_and_dropdown{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+
+}

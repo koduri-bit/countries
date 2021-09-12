@@ -1,0 +1,25 @@
+.topheader{
+    width: 100%;
+    margin: 0;
+    padding:0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    height: 10%;
+}
+
+.where_in_the_world{
+    margin: 1em 0 1em 3em;
+    align-self: center;
+    justify-self: start;
+}
+.light-mode{
+    margin: 1em 3em 1em 0;
+    align-self: center;
+    justify-self: end;
+}
+
+.pointer{
+    cursor: pointer;
+    transform: rotate(328deg);
+}

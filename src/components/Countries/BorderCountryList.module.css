@@ -1,0 +1,30 @@
+.listStyle{
+    list-style: none;
+    margin: 0 0 0 .35em;
+    padding: 0;
+
+
+
+}
+
+.listStyle:first-child{
+    margin-left: 0.7em;
+}
+
+.linkStyle{
+    text-underline: none;
+}
+
+/*.link-Style  {
+    font-size: 9px;
+    padding: .3em .5em .3em .5em;
+    border-width: thin;
+    border-color:hsl(0, 15%, 91%) ;
+    border-radius:  .2em;
+    box-shadow: 0 0 .5em 0 hsl(0, 28%, 79%) ;
+    font-family: inherit;
+    text-decoration: none;
+    color: inherit;
+
+}*/
+

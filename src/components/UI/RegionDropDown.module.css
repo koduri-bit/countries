@@ -1,0 +1,85 @@
+/*
+select {
+
+    border: none;
+    background: transparent;
+    font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+}
+*/
+
+
+/*.div-sel{
+    background-color: #fff;
+    width: 22%;
+    height: 55px;
+    border: 1px solid #efefef;
+    border-radius: .2em;
+}
+
+.select{
+    margin: 0;
+    padding: 0 0 0 0;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-self: end;
+
+
+}*/
+
+
+.select_dropdown{
+
+    font-weight: lighter;
+    margin: 2em 2.4em 1em 0;
+    border: none;
+    outline: none;
+    height: 3.2em;
+    padding: 1em 0 1em 1em;
+    width: 45%;
+    border-radius: .2em;
+    align-self: center;
+    justify-self: end;
+    box-shadow: 0 0 .5em 0 hsl(0, 15%, 91%);
+    font-family: inherit;
+    font-weight: lighter;
+    background-color: white;
+    color: hsl(0, 2% , 55%);
+
+}
+
+.select_dropdown:focus{
+    box-shadow: 0 0 .5em 0 hsl(0, 15%, 82%);
+}
+.dropdown{
+    margin: 1em 3em 1em 0;
+    align-self: center;
+    justify-self: end;
+}
+
+.option{
+    font-size: inherit;
+    font-family: FontAwesome;
+    font-weight: lighter;
+
+}
+
+/*
+.dropdown{
+    margin: 1em 0 1em 0;
+
+}
+*/
+
+
+@media only screen and (max-width: 500px){
+    .select_dropdown{
+        width: 50%;
+        margin: 1em 0 1em 2.5em;
+        align-self: center;
+        justify-self: start;
+        border-radius: .5em;
+    }
+
+
+}

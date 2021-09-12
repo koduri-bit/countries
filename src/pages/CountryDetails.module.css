@@ -1,0 +1,124 @@
+.sub-details{
+    display: grid;
+    padding:0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.country-name{
+    margin:0;
+    padding: 0;
+}
+
+.full-details{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr 1fr;
+
+    justify-content: center;
+    align-items: center;
+    row-gap: .5em;
+}
+.ulStyle {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+
+}
+.brdlist{
+    margin: 2em 0 0 0;
+    padding: 0;
+
+}
+
+
+.backBtnLink{
+   background-color: initial;
+    width: 7em;
+    margin:4.5% 0 0 3.2em;
+    align-self: start;
+    border-style: none;
+    border-color: hsl(0, 15%, 91%);
+    border-radius: .2em;
+    box-shadow: 0 0 .5em 0 hsl(0, 28%, 79%);
+    font-family: inherit;
+    text-decoration: none;
+    text-align: center;
+    padding: .3em .5em .3em .5em;
+    cursor: pointer;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+}
+.leftArrowBtn{
+
+    padding:0;
+    margin: 0;
+    font-size: 1.8em;
+}
+.ulLangStyle{
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+
+}
+.eachLangList{
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 0.2em;
+    font-family: inherit;
+    text-decoration: none;
+    font-size: 10px;
+    color: hsl(0, 100%, 5%);
+}
+
+@media only screen and (max-width: 500px){
+
+    .sub-details{
+        display: grid;
+        padding:0;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 3fr 1fr;
+        justify-content: center;
+        align-self: start;
+        margin:0 0 0 2em;
+
+
+    }
+
+    .full-details{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-auto-rows: 1fr;
+        grid-auto-flow: initial;
+        grid-auto-columns: initial;
+    }
+    .backBtnLink{
+        margin:2em 0 0 3.2em;
+    }
+
+    .ulStyle {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+
+    }
+    .brdlist{
+        margin: 2em 0 0 0;
+        padding: 0;
+
+    }
+
+
+}
