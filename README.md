@@ -58,14 +58,14 @@ The requirement of this application is -
   | [Rest Countries](https://koduri-bit.github.io/countries/)                  | useState, useReducer, useContext, React Context |  useEffect           |
   
 
-**See below projects where I would be using different state management concepts. Note the project still remains same `Job listings with filtering`, but the implementation changes as per below table**
+**See below projects where I would be using different state management concepts.**
 
   | Project                           |  Managing Application State | Managing Application side effects  |
   | :---                            |   :---:                       |   :---:                             |
   | [Job Listing-01](https://koduri-bit.github.io/job-listings-01/)    |   useState                    |   useEffect                            |
   | [Job Listing-02](https://koduri-bit.github.io/job-listings-02/)    | useState, useReducer          |   useEffect                            |
   | [Job Listing-03](https://koduri-bit.github.io/job-listings-03/)                  | useState, useReducer, useContext, React Context |  useEffect           |
-  | [Job Listing-04](https://koduri-bit.github.io/job-listings-04/)   (This project)               | useState, Redux               |  useEffect                             |
+  | [Job Listing-04](https://koduri-bit.github.io/job-listings-04/)             | useState, Redux               |  useEffect                             |
    
 
 ## Project Deployed on - 
