@@ -1,8 +1,8 @@
-const RESTCOUNTRIES_DOMAIN = 'https://restcountries.eu/rest/v2';
+const RESTCOUNTRIES_DOMAIN = 'https://restcountries.com/v2';
 
 export async function getAllCountries() {
 
-  //https://restcountries.eu/rest/v2/all
+
 
   const response = await fetch(`${RESTCOUNTRIES_DOMAIN}/all`);
   const data = await response.json();
@@ -33,7 +33,6 @@ export async function getAllCountries() {
 }
 
 export async function getCountriesFromSingleRegion(regionId) {
-  //https://restcountries.eu/rest/v2/region/europe
 
   const response = await fetch(`${RESTCOUNTRIES_DOMAIN}/region/${regionId}`);
   const data = await response.json();
@@ -63,7 +62,7 @@ export async function getCountriesFromSingleRegion(regionId) {
 
 export async function getSingleCountry(countryId) {
 
-  //https://restcountries.eu/rest/v2/name/eesti
+
   const response = await fetch(`${RESTCOUNTRIES_DOMAIN}/name/${countryId}`);
   const data = await response.json();
 
@@ -102,7 +101,6 @@ export async function getSingleCountry(countryId) {
 export async function getSingleCountryByThreeLetterCode(countryId) {
 
 
-  //https://restcountries.eu/rest/v2/name/eesti
   const response = await fetch(`${RESTCOUNTRIES_DOMAIN}/alpha/${countryId}`);
   const data = await response.json();
 
