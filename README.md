@@ -53,7 +53,7 @@ The requirement of this application is -
 
 **No class based js files written for any react components nor used class based life cycle methods. For class based type I will be doing another project and update in here with the link**
 
-**You may not see optimization techniques like `React Lazy` , `useCallBack` , `useMemo` nor `React memo` usage . For these I would be ding another project**
+**You may not see optimization techniques like `React Lazy` , `useCallBack` , `useMemo` nor `React memo` usage . For these I would be doing another project**
 
 **This project details.**
 
