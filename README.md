@@ -26,7 +26,7 @@ The requirement of this application is -
 
 - User can switch theme `Dark Mode` or `Light Mode` by clicking moon icon on top right corner
 
-- To pull countries and its details we should leverage [Get information about countries via a RESTful API](https://restcountries.eu/)
+- To pull countries and its details we should leverage [Get information about countries via a RESTful API](https://restcountries.com/)
 
 
 ## To access this responsive application -
@@ -51,7 +51,9 @@ The requirement of this application is -
 
 **Desktop width targeted at 1440 and Mobile width targeted at 375.**
 
-**No class based js files written for any react components. For class based type I will be doing another project and update in here with the link**
+**No class based js files written for any react components nor used class based life cycle methods. For class based type I will be doing another project and update in here with the link**
+
+**You may not see optimization techniques like `React Lazy` , `useCallBack` , `useMemo` nor `React memo` usage . For these I would be ding another project**
 
 **This project details.**
 
